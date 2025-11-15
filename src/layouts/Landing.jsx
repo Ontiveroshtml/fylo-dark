@@ -1,6 +1,7 @@
 import { Features } from "../pages/Features";
 import { Home } from "../pages/Home";
 import { Team } from "../pages/Team";
+import { Testimonials } from "../pages/Testimonials";
 
 export function Landing() {
   return (
@@ -8,6 +9,7 @@ export function Landing() {
       <Home />
       <Features />
       <Team />
+      <Testimonials />
     </>
   );
 }
