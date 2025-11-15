@@ -4,7 +4,7 @@ import logo from "../assets/images/logo.svg";
 export function Navbar() {
   return (
     <>
-      <nav className="flex justify-between p-12">
+      <nav className="flex justify-between px-12 py-6">
           <img src={logo} alt="Logo fylo" className="max-w-30" />
 
         <ul className="flex text-White gap-8">
