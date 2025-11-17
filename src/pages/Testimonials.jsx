@@ -5,7 +5,7 @@ import bgQuotes from "../assets/images/bg-quotes.png";
 
 export function Testimonials() {
   return (
-    <section className="bg-Navy-900 flex p-8">
+    <section className="bg-Navy-900 flex p-8 pb-70">
       <div className="flex max-w-7xl gap-16 mx-auto pt-20 z-2 relative ">
         <img
           src={bgQuotes}

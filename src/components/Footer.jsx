@@ -3,9 +3,13 @@ import locationIcon from "../assets/images/icon-location.svg";
 import emailIcon from "../assets/images/icon-email.svg";
 import phoneIcon from "../assets/images/icon-phone.svg";
 
+import { Contact } from "../pages/Contact";
+
 export function Footer() {
   return (
-    <footer className="flex flex-col px-20 py-30 pt-40 gap-8 bg-Navy-950 ">
+    <footer className="flex relative flex-col px-20 py-30 pt-50 gap-8 bg-Navy-950 z-2 ">
+      <Contact />
+
       <img src={logo} alt="logo" className="max-w-30" />
 
       <div className="flex text-White justify-between">
