@@ -7,13 +7,13 @@ import { Contact } from "../pages/Contact";
 
 export function Footer() {
   return (
-    <footer className="flex relative flex-col px-20 py-30 pt-50 gap-8 bg-Navy-950 z-2 ">
+    <footer className="w-full flex flex-col relative px-20 py-30 pt-50 gap-8 bg-Navy-950 z-2 ">
       <Contact />
 
       <img src={logo} alt="logo" className="max-w-30" />
 
-      <div className="flex text-White justify-between">
-        <div className="flex text-White gap-4 max-w-85">
+      <div className="flex flex-col lg:flex-row gap-8  text-White justify-between">
+        <div className="flex  text-White gap-4 max-w-85">
           <img
             src={locationIcon}
             alt="icon-location"
@@ -54,9 +54,9 @@ export function Footer() {
         </div>
 
         <div className="flex gap-4">
-          <a href="">Face</a>
-          <a href="">X</a>
-          <a href="">Insta</a>
+          <a href="#">Face</a>
+          <a href="#">X</a>
+          <a href="#">Insta</a>
         </div>
       </div>
     </footer>

@@ -4,7 +4,7 @@ import iconArrow from "../assets/images/icon-arrow.svg";
 export function Team() {
   return (
     <section id="team" className="bg-Navy-900 flex justify-center ">
-      <div className="flex justify-center items-center mt-16 gap-8">
+      <div className="flex flex-col lg:flex-row justify-center items-center mt-16 gap-8 p-2">
         <img src={productiveIllustration} alt="icon-arrow" className="pr-10" />
 
         <div className="flex flex-col gap-4 max-w-lg">

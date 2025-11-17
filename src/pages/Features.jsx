@@ -10,7 +10,7 @@ export function Features() {
         id="features"
         className="bg-Navy-900 flex justify-center"
       >
-        <div className="grid grid-cols-2 justify-between items-center max-w-4xl gap-20 text-center">
+        <div className="grid sm:grid-cols-2 justify-between items-center p-2 max-w-4xl gap-20 text-center">
           <article className="flex flex-col justify-center items-center">
             <img src={accessIcon} alt="icon-access-anywhere" />
             <h3 className="text-White font-medium">
